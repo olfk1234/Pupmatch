@@ -1,0 +1,228 @@
+/* Headings */
+
+.bigheading{
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900; /*Use font weight to use different types of font family*/
+
+}
+
+/* Body */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+.uncolor{
+    background-color: #fff;
+}
+
+.colorsection#title, .colorsection#cta{
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.colorsection#testimonials, .colorsection#press{
+    background-color: #ef8172;
+    color:#fff;
+}
+
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin:0 18px;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* title download buttons */
+
+.download-button{
+
+    margin: 10% 3% 10% 0;
+}
+
+/* Titles */
+
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding-top: 2.38rem;
+    text-align: left;
+}
+
+/* title image */
+.phone{
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+    bottom:-120px;
+    right: 20%;
+}
+
+@media (max-width: 767.20px) {
+
+    #title{
+
+        text-align: center;
+        
+    }
+
+    .phone{
+        transform: rotate(0deg);
+        margin-left: 9%;
+        width: 60%;
+        position: static;
+    }
+
+
+}
+
+/* icons in features section */
+
+.picture{
+
+    color: #ef8172;
+    font-size: 70px;
+    line-height: 1.5;
+    
+}
+
+.picture:hover{
+
+    color: #ff4c68;
+
+}
+/* features */
+.features{
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.featuresh3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.featuresp{
+
+    color: #8f8f8f;
+
+}
+
+.cell{
+    padding: 5%;
+
+}
+
+/* Testimonials */
+.testimonialsh2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.dogimg{
+
+    width: 10%;
+    border-radius: 100%; /*makes image rounded*/
+    margin: 20px;
+}
+
+
+
+/* press */
+
+#press{
+    padding-bottom: 3%;
+}
+
+.pressimg{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    
+    padding-top: 5%;
+}
+
+.dogname{
+    font-weight: 400;
+}
+
+.price{
+    font-weight: 500;
+}
+
+.rest{
+    font-weight:300;
+    color:grey;
+}
+
+.pmargin{
+    margin-bottom: 56px;
+}
+
+.signup{
+
+    margin: 0 30px 30px 30px;
+
+}
+
+.topprice{
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.header{
+    background-color: #f8f4f4;
+}
+
+/*Call to Action */
+
+.ctah2{
+    font-weight: 900;
+    font-size: 2.5rem;
+    padding: 5% 25% 3%;
+}
+
+.dloadbutton{
+    margin-right: 3%;
+    margin-bottom: 10%;
+}
+
+/* footer */
+
+#footer{
+    
+    background-color: #fff;
+}
+
+.social{
+    padding:7% 0.5% 1%;
+}
